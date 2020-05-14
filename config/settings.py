@@ -168,5 +168,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 # ユーザー認証系 #
 ###############
 SITE_ID = 1
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'main:home'
 ACCOUNT_LOGOUT_REDIRECT_URL = '/account/login/'
